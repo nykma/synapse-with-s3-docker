@@ -1,0 +1,20 @@
+* Synapse w/ S3 backend docker image
+  :PROPERTIES:
+  :ID:       1ed61b68-f35d-4902-98f4-4d14008e7bbd
+  :END:
+
+** Usage
+   :PROPERTIES:
+   :ID:       e98988f1-1fa1-4e8d-bfed-e9819e4774b1
+   :END:
+   #+begin_src sh
+     docker pull nykma/synapse:latest
+     # Run and configure it as describe in the following repos
+   #+end_src
+
+** See also
+   :PROPERTIES:
+   :ID:       1e398a2c-439d-4f1c-a470-406adb151ba2
+   :END:
+   - [[https://github.com/matrix-org/synapse/tree/develop/docker][/matrix-org/synapse/docker]]
+   - [[https://github.com/matrix-org/synapse-s3-storage-provider][matrix-org/synapse-s3-storage-provider]]
